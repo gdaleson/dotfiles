@@ -9,3 +9,4 @@ export GOPATH=~/lib/go
 export ANDROID_HOME=~/Library/Android/sdk
 export SONAR_RUNNER_HOME=/usr/local/Cellar/sonar-runner/2.4/libexec
 export JENV_ROOT=/usr/local/opt/jenv
+export JAVA_OPTS='-Djava.net.preferIPv4Stack=true'
