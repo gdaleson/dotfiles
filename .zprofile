@@ -1,5 +1,3 @@
-export GITHUB_API_TOKEN=2a1adb0c6ace839497eff5791fae723a08b41181
-export HOMEBREW_GITHUB_API_TOKEN=${GITHUB_API_TOKEN}
 export GROOVY_HOME=/usr/local/opt/groovy/libexec
 export GRADLE_HOME=/usr/local/Cellar/gradle/2.3
 export HIVE_HOME=/usr/local/Cellar/hive/0.13.1/libexec

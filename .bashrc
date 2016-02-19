@@ -9,3 +9,5 @@ export NVM_DIR="/Users/gdales/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 
 export PATH="$PATH:/Applications/HP_Fortify/HP_Fortify_SCA_and_Apps_4.31/bin"
+
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting

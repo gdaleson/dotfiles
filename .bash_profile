@@ -57,9 +57,9 @@ fi
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
 
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
-
 #THIS MUST BE AT THE END OF THE FILE FOR GVM TO WORK!!!
 [[ -s "/Users/gdales/.gvm/bin/gvm-init.sh" ]] && source "/Users/gdales/.gvm/bin/gvm-init.sh"
 
 export PATH="$PATH:/Applications/HP_Fortify/HP_Fortify_SCA_and_Apps_4.31/bin"
+
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
