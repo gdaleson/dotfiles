@@ -7,10 +7,9 @@ alias ~="cd ~" # `cd` is probably faster to type though
 alias -- -="cd -"
 
 # Shortcuts
-alias d="cd ~/Documents/Dropbox"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
-alias p="cd ~/projects"
+alias p="cd ~/Projects"
 alias g="git"
 alias h="history"
 alias j="jobs"
@@ -45,7 +44,7 @@ alias week='date +%V'
 alias timer='echo "Timer started. Stop with Ctrl-D." && date && time cat && date'
 
 # Get OS X Software Updates, and update installed Ruby gems, Homebrew, npm, and their installed packages
-alias update_all='sudo softwareupdate -i -a; brew update; brew upgrade --all; brew cleanup; npm -g update; rvm get stable; gem update --system; gem update; gem cleanup; sdk selfupdate; apm update --no-confirm'
+alias update_all='sudo softwareupdate -i -a; brew update; brew upgrade --all; brew cleanup; npm -g update; rvm get stable; gem update --system; gem update; gem cleanup; sdk selfupdate; apm update --no-confirm; apex upgrade; meteor update'
 
 # IP addresses
 alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
