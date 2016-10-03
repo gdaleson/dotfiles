@@ -51,7 +51,7 @@ COMPLETION_WAITING_DOTS="true"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(aws bower brew bundler cabal colored-man docker gas gem git gitfast git-extras git-flow git-hubflow gradle jira jsontools lein mvn npm osx pip python ruby rvm sbt scala ssh-agent sudo tmux urltools vagrant zsh-syntax-highlighting)
+plugins=(aws bower brew brew-cask bundler cabal colored-man docker gas gem git gitfast git-extras git-flow git-hubflow gradle jira jsontools lein mvn npm osx pip python ruby rvm sbt scala ssh-agent sudo tmux urltools vagrant xcode zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -81,9 +81,6 @@ fi
 JIRA_URL="https://jira.nike.com"
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
-export NVM_DIR="/Users/gdales/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
-
 source /Users/gdales/.iterm2_shell_integration.zsh
 
 source '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc'
@@ -91,6 +88,7 @@ source '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 eval "$(thefuck --alias)"
+. /usr/local/etc/profile.d/z.sh
 
 ###-begin-galen-completions-###
 #
@@ -124,3 +122,7 @@ complete -F _yargs_completions galen
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 [[ -s "/Users/gdales/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/gdales/.sdkman/bin/sdkman-init.sh"
 
+
+# Custom zsh prompt. See https://github.com/oliververdier/zsh-git-prompt
+source ~/lib/zsh-git-prompt/zshrc.sh
+PROMPT=$(echo ${PROMPT} | sed -e 's/git_prompt_info/git_super_status/' | sed -e 's/$(parse_git_dirty)//')

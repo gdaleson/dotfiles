@@ -6,6 +6,8 @@ export ANDROID_HOME=~/Library/Android/sdk
 export SONAR_RUNNER_HOME=/usr/local/Cellar/sonar-runner/2.4/libexec
 export JENV_ROOT=/usr/local/var/jenv
 export _JAVA_OPTS='-Djava.net.preferIPv4Stack=true'
+export JAVA_OPTS=${_JAVA_OPTS}
 eval "$(jenv init -)"
+export GRADLE_OPTS="-Dorg.gradle.daemon=false"
 
 . ~/.zprofile_secure
