@@ -63,3 +63,9 @@ export PATH="/usr/local/heroku/bin:$PATH"
 export PATH="$PATH:/Applications/HP_Fortify/HP_Fortify_SCA_and_Apps_4.31/bin"
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+
+test -e "${HOME}/.iterm2_shell_integration.bash" && source "${HOME}/.iterm2_shell_integration.bash"
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="/Users/gdales/.sdkman"
+[[ -s "/Users/gdales/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/gdales/.sdkman/bin/sdkman-init.sh"

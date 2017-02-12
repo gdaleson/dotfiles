@@ -78,7 +78,6 @@ fi
 
 . ~/.aliases
 
-JIRA_URL="https://jira.nike.com"
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 source /Users/gdales/.iterm2_shell_integration.zsh

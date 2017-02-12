@@ -44,7 +44,7 @@ alias week='date +%V'
 alias timer='echo "Timer started. Stop with Ctrl-D." && date && time cat && date'
 
 # Get OS X Software Updates, and update installed Ruby gems, Homebrew, npm, and their installed packages
-alias update_all='sudo softwareupdate -i -a; apm update --no-confirm; brew update; brew upgrade; brew cleanup; npm -g update; rvm get stable; gem update --system; gem update; gem cleanup; sdk selfupdate; apex upgrade; meteor update'
+alias update_all='sudo softwareupdate -i -a; apm update --no-confirm; brew update; brew upgrade; brew cleanup; rvm get stable; gem update --system; gem update; gem cleanup; sdk selfupdate; yarn self-update; yarn global upgrade; apex upgrade; meteor update'
 
 # IP addresses
 alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
@@ -157,3 +157,5 @@ alias rm='rm -iv'
 alias ln='ln -siv'
 
 alias fuck='eval $(thefuck $(fc -ln -1 | tail -n 1)); fc -R'
+
+alias inspec='docker run -it --rm -v $(pwd):/share chef/inspec'
