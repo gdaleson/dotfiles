@@ -8,7 +8,7 @@ fpath=(/usr/local/share/zsh-completions $fpath)
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="dallas"
+ZSH_THEME="astartosteerherby"
 
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
@@ -55,11 +55,6 @@ plugins=(aws bower brew brew-cask bundler cabal colored-man docker gas gem git g
 
 source $ZSH/oh-my-zsh.sh
 
-# User configuration
-
-export PATH="/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:${GOPATH}/bin:${HOME}/bin:${PATH}"
-export MANPATH="/usr/local/man:$MANPATH"
-
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
 
@@ -78,6 +73,7 @@ fi
 
 . ~/.aliases
 
+JIRA_URL="https://jira.nike.com"
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 source /Users/gdales/.iterm2_shell_integration.zsh
@@ -85,7 +81,6 @@ source /Users/gdales/.iterm2_shell_integration.zsh
 source '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc'
 source '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc'
 
-export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 eval "$(thefuck --alias)"
 . /usr/local/etc/profile.d/z.sh
 
@@ -121,7 +116,5 @@ complete -F _yargs_completions galen
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 [[ -s "/Users/gdales/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/gdales/.sdkman/bin/sdkman-init.sh"
 
-
 # Custom zsh prompt. See https://github.com/oliververdier/zsh-git-prompt
 source ~/lib/zsh-git-prompt/zshrc.sh
-PROMPT=$(echo ${PROMPT} | sed -e 's/git_prompt_info/git_super_status/' | sed -e 's/$(parse_git_dirty)//')
