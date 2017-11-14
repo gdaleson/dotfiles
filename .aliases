@@ -44,7 +44,7 @@ alias week='date +%V'
 alias timer='echo "Timer started. Stop with Ctrl-D." && date && time cat && date'
 
 # Get OS X Software Updates, and update installed Ruby gems, Homebrew, npm, and their installed packages
-alias update_all='sudo softwareupdate -i -a; apm update --no-confirm; brew update; brew upgrade; brew cleanup; rvm get stable; gem update --system; gem update; gem cleanup; sdk selfupdate; yarn self-update; yarn global upgrade; apex upgrade; meteor update'
+alias update_all='sudo softwareupdate -i -a; apm update --no-confirm; brew update; brew upgrade; brew cleanup; rvm get stable; gem update --system; gem update; gem cleanup; sdk selfupdate; yarn global upgrade; apex upgrade; meteor update'
 
 # IP addresses
 alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
@@ -136,14 +136,8 @@ alias pumpitup="osascript -e 'set volume 7'"
 # [C] explained: http://www.commandlinefu.com/commands/view/402/exclude-grep-from-your-grepped-output-of-ps-alias-included-in-description
 alias chromekill="ps ux | grep '[C]hrome Helper --type=renderer' | grep -v extension-process | tr -s ' ' | cut -d ' ' -f2 | xargs kill"
 
-# Lock the screen (when going AFK)
-alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
-
 # Reload the shell (i.e. invoke as a login shell)
 alias reload="exec $SHELL -l"
-
-# Faster npm for Europeans
-# command -v npm > /dev/null && alias npme="npm --registry http://registry.npmjs.eu/"
 
 # My personal aliases
 
@@ -159,3 +153,4 @@ alias ln='ln -siv'
 alias fuck='eval $(thefuck $(fc -ln -1 | tail -n 1)); fc -R'
 
 alias inspec='docker run -it --rm -v $(pwd):/share chef/inspec'
+

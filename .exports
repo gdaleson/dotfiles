@@ -1,6 +1,8 @@
 export HIVE_HOME=/usr/local/opt/hive/libexec
 export HCAT_HOME=/usr/local/opt/hive/libexec/hcatalog
 export SPARK_HOME=/usr/local/opt/apache-spark/libexec
+export ORACLE_HOME=/usr/local/opt/instantclient-basic11/lib
+export LD_RUN_PATH=/usr/local/opt/instantclient-sdk11/lib/sdk
 export GNUTERM=aqua
 export GOPATH=~/lib/go
 export ANDROID_HOME=~/Library/Android/sdk
@@ -9,10 +11,10 @@ export _JAVA_OPTS='-Djava.net.preferIPv4Stack=true'
 export JAVA_OPTS=${_JAVA_OPTS}
 export GRADLE_OPTS="-Dorg.gradle.daemon=false"
 
-export PATH="/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:${GOPATH}/bin:${HOME}/bin:${PATH}"
-PATH="$PATH:$HOME/.rvm/bin"
-eval "$(pyenv init -)"
-eval "$(pyenv virtualenv-init -)"
-export MANPATH="/usr/local/man:${MANPATH}"
+if [[ -n $SSH_CONNECTION ]]; then
+  export EDITOR='vim'
+else
+  export EDITOR='mvim'
+fi
 
-. ~/.zprofile_secure
+export SSH_KEY_PATH="${HOME}/.ssh/gabriel.daleson@nike.com.rsa"
