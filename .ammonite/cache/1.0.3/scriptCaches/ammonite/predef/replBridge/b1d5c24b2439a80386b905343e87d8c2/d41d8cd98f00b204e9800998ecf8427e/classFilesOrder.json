@@ -1,0 +1,45 @@
+[
+    {
+        "code": "b1d5c24b2439a80386b905343e87d8c2",
+        "env": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    [
+        {
+            "id": {
+                "wrapperPath": "ammonite.predef.replBridge",
+                "tag": {
+                    "code": "189a649b2854118920c20db3912af0e9",
+                    "env": "a9966335e51461c4aa3b4cfeb2342127"
+                }
+            },
+            "leadingSpaces": "",
+            "hookInfo": {
+                "imports": {
+                    "value": []
+                },
+                "stmts": [
+                    "import ammonite.repl.ReplBridge.{value => repl}"
+                ],
+                "trees": []
+            },
+            "finalImports": {
+                "value": [
+                    {
+                        "fromName": "value",
+                        "toName": "repl",
+                        "prefix": [
+                            "_root_",
+                            "ammonite",
+                            "repl",
+                            "ReplBridge"
+                        ],
+                        "importType": {
+                            "$type": "ammonite.util.ImportData.ImportType",
+                            "name": "Term"
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+]

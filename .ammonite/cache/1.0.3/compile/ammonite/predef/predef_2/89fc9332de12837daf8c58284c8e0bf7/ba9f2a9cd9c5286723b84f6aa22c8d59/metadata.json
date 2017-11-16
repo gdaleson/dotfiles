@@ -1,0 +1,1254 @@
+[
+    {
+        "code": "89fc9332de12837daf8c58284c8e0bf7",
+        "env": "ba9f2a9cd9c5286723b84f6aa22c8d59"
+    },
+    {
+        "value": [
+            {
+                "fromName": "res_4",
+                "toName": "res_4",
+                "prefix": [],
+                "importType": {
+                    "$type": "ammonite.util.ImportData.ImportType",
+                    "name": "Term"
+                }
+            },
+            {
+                "fromName": "shellSession",
+                "toName": "shellSession",
+                "prefix": [],
+                "importType": {
+                    "$type": "ammonite.util.ImportData.ImportType",
+                    "name": "Term"
+                }
+            },
+            {
+                "fromName": "FilterMapExt2",
+                "toName": "FilterMapExt2",
+                "prefix": [
+                    "_root_",
+                    "ammonite",
+                    "ops"
+                ],
+                "importType": {
+                    "$type": "ammonite.util.ImportData.ImportType",
+                    "name": "Type"
+                }
+            },
+            {
+                "fromName": "mv",
+                "toName": "mv",
+                "prefix": [
+                    "_root_",
+                    "ammonite",
+                    "ops"
+                ],
+                "importType": {
+                    "$type": "ammonite.util.ImportData.ImportType",
+                    "name": "Term"
+                }
+            },
+            {
+                "fromName": "Pipeable",
+                "toName": "Pipeable",
+                "prefix": [
+                    "_root_",
+                    "ammonite",
+                    "ops"
+                ],
+                "importType": {
+                    "$type": "ammonite.util.ImportData.ImportType",
+                    "name": "Type"
+                }
+            },
+            {
+                "fromName": "FilePath",
+                "toName": "FilePath",
+                "prefix": [
+                    "_root_",
+                    "ammonite",
+                    "ops"
+                ],
+                "importType": {
+                    "$type": "ammonite.util.ImportData.ImportType",
+                    "name": "TermType"
+                }
+            },
+            {
+                "fromName": "write",
+                "toName": "write",
+                "prefix": [
+                    "_root_",
+                    "ammonite",
+                    "ops"
+                ],
+                "importType": {
+                    "$type": "ammonite.util.ImportData.ImportType",
+                    "name": "Term"
+                }
+            },
+            {
+                "fromName": "ImplicitOp",
+                "toName": "ImplicitOp",
+                "prefix": [
+                    "_root_",
+                    "ammonite",
+                    "ops"
+                ],
+                "importType": {
+                    "$type": "ammonite.util.ImportData.ImportType",
+                    "name": "Type"
+                }
+            },
+            {
+                "fromName": "PathConvertible",
+                "toName": "PathConvertible",
+                "prefix": [
+                    "_root_",
+                    "ammonite",
+                    "ops"
+                ],
+                "importType": {
+                    "$type": "ammonite.util.ImportData.ImportType",
+                    "name": "TermType"
+                }
+            },
+            {
+                "fromName": "RegexContext",
+                "toName": "RegexContext",
+                "prefix": [
+                    "_root_",
+                    "ammonite",
+                    "ops"
+                ],
+                "importType": {
+                    "$type": "ammonite.util.ImportData.ImportType",
+                    "name": "TermType"
+                }
+            },
+            {
+                "fromName": "LsSeq",
+                "toName": "LsSeq",
+                "prefix": [
+                    "_root_",
+                    "ammonite",
+                    "ops"
+                ],
+                "importType": {
+                    "$type": "ammonite.util.ImportData.ImportType",
+                    "name": "Type"
+                }
+            },
+            {
+                "fromName": "Callable2",
+                "toName": "Callable2",
+                "prefix": [
+                    "_root_",
+                    "ammonite",
+                    "ops"
+                ],
+                "importType": {
+                    "$type": "ammonite.util.ImportData.ImportType",
+                    "name": "Type"
+                }
+            },
+            {
+                "fromName": "Extensions",
+                "toName": "Extensions",
+                "prefix": [
+                    "_root_",
+                    "ammonite",
+                    "ops"
+                ],
+                "importType": {
+                    "$type": "ammonite.util.ImportData.ImportType",
+                    "name": "TermType"
+                }
+            },
+            {
+                "fromName": "PathError",
+                "toName": "PathError",
+                "prefix": [
+                    "_root_",
+                    "ammonite",
+                    "ops"
+                ],
+                "importType": {
+                    "$type": "ammonite.util.ImportData.ImportType",
+                    "name": "Term"
+                }
+            },
+            {
+                "fromName": "BasePath",
+                "toName": "BasePath",
+                "prefix": [
+                    "_root_",
+                    "ammonite",
+                    "ops"
+                ],
+                "importType": {
+                    "$type": "ammonite.util.ImportData.ImportType",
+                    "name": "TermType"
+                }
+            },
+            {
+                "fromName": "resource",
+                "toName": "resource",
+                "prefix": [
+                    "_root_",
+                    "ammonite",
+                    "ops"
+                ],
+                "importType": {
+                    "$type": "ammonite.util.ImportData.ImportType",
+                    "name": "Term"
+                }
+            },
+            {
+                "fromName": "ln",
+                "toName": "ln",
+                "prefix": [
+                    "_root_",
+                    "ammonite",
+                    "ops"
+                ],
+                "importType": {
+                    "$type": "ammonite.util.ImportData.ImportType",
+                    "name": "Term"
+                }
+            },
+            {
+                "fromName": "cp",
+                "toName": "cp",
+                "prefix": [
+                    "_root_",
+                    "ammonite",
+                    "ops"
+                ],
+                "importType": {
+                    "$type": "ammonite.util.ImportData.ImportType",
+                    "name": "Term"
+                }
+            },
+            {
+                "fromName": "FilterMapExtGen",
+                "toName": "FilterMapExtGen",
+                "prefix": [
+                    "_root_",
+                    "ammonite",
+                    "ops"
+                ],
+                "importType": {
+                    "$type": "ammonite.util.ImportData.ImportType",
+                    "name": "Type"
+                }
+            },
+            {
+                "fromName": "tmp",
+                "toName": "tmp",
+                "prefix": [
+                    "_root_",
+                    "ammonite",
+                    "ops"
+                ],
+                "importType": {
+                    "$type": "ammonite.util.ImportData.ImportType",
+                    "name": "Term"
+                }
+            },
+            {
+                "fromName": "Callable1",
+                "toName": "Callable1",
+                "prefix": [
+                    "_root_",
+                    "ammonite",
+                    "ops"
+                ],
+                "importType": {
+                    "$type": "ammonite.util.ImportData.ImportType",
+                    "name": "Type"
+                }
+            },
+            {
+                "fromName": "FileType",
+                "toName": "FileType",
+                "prefix": [
+                    "_root_",
+                    "ammonite",
+                    "ops"
+                ],
+                "importType": {
+                    "$type": "ammonite.util.ImportData.ImportType",
+                    "name": "TermType"
+                }
+            },
+            {
+                "fromName": "Path",
+                "toName": "Path",
+                "prefix": [
+                    "_root_",
+                    "ammonite",
+                    "ops"
+                ],
+                "importType": {
+                    "$type": "ammonite.util.ImportData.ImportType",
+                    "name": "TermType"
+                }
+            },
+            {
+                "fromName": "iterShow",
+                "toName": "iterShow",
+                "prefix": [
+                    "_root_",
+                    "ammonite",
+                    "ops"
+                ],
+                "importType": {
+                    "$type": "ammonite.util.ImportData.ImportType",
+                    "name": "Type"
+                }
+            },
+            {
+                "fromName": "FilterMapExt",
+                "toName": "FilterMapExt",
+                "prefix": [
+                    "_root_",
+                    "ammonite",
+                    "ops"
+                ],
+                "importType": {
+                    "$type": "ammonite.util.ImportData.ImportType",
+                    "name": "Type"
+                }
+            },
+            {
+                "fromName": "StreamableOp1",
+                "toName": "StreamableOp1",
+                "prefix": [
+                    "_root_",
+                    "ammonite",
+                    "ops"
+                ],
+                "importType": {
+                    "$type": "ammonite.util.ImportData.ImportType",
+                    "name": "Type"
+                }
+            },
+            {
+                "fromName": "ResourcePath",
+                "toName": "ResourcePath",
+                "prefix": [
+                    "_root_",
+                    "ammonite",
+                    "ops"
+                ],
+                "importType": {
+                    "$type": "ammonite.util.ImportData.ImportType",
+                    "name": "TermType"
+                }
+            },
+            {
+                "fromName": "RelPath",
+                "toName": "RelPath",
+                "prefix": [
+                    "_root_",
+                    "ammonite",
+                    "ops"
+                ],
+                "importType": {
+                    "$type": "ammonite.util.ImportData.ImportType",
+                    "name": "TermType"
+                }
+            },
+            {
+                "fromName": "pwd",
+                "toName": "pwd",
+                "prefix": [
+                    "_root_",
+                    "ammonite",
+                    "ops"
+                ],
+                "importType": {
+                    "$type": "ammonite.util.ImportData.ImportType",
+                    "name": "Term"
+                }
+            },
+            {
+                "fromName": "SeqFactoryFunc",
+                "toName": "SeqFactoryFunc",
+                "prefix": [
+                    "_root_",
+                    "ammonite",
+                    "ops"
+                ],
+                "importType": {
+                    "$type": "ammonite.util.ImportData.ImportType",
+                    "name": "Term"
+                }
+            },
+            {
+                "fromName": "up",
+                "toName": "up",
+                "prefix": [
+                    "_root_",
+                    "ammonite",
+                    "ops"
+                ],
+                "importType": {
+                    "$type": "ammonite.util.ImportData.ImportType",
+                    "name": "Term"
+                }
+            },
+            {
+                "fromName": "cwd",
+                "toName": "cwd",
+                "prefix": [
+                    "_root_",
+                    "ammonite",
+                    "ops"
+                ],
+                "importType": {
+                    "$type": "ammonite.util.ImportData.ImportType",
+                    "name": "Term"
+                }
+            },
+            {
+                "fromName": "CopyMove",
+                "toName": "CopyMove",
+                "prefix": [
+                    "_root_",
+                    "ammonite",
+                    "ops"
+                ],
+                "importType": {
+                    "$type": "ammonite.util.ImportData.ImportType",
+                    "name": "Type"
+                }
+            },
+            {
+                "fromName": "package",
+                "toName": "package",
+                "prefix": [
+                    "_root_",
+                    "ammonite",
+                    "ops"
+                ],
+                "importType": {
+                    "$type": "ammonite.util.ImportData.ImportType",
+                    "name": "Term"
+                }
+            },
+            {
+                "fromName": "InteractiveShelloutException",
+                "toName": "InteractiveShelloutException",
+                "prefix": [
+                    "_root_",
+                    "ammonite",
+                    "ops"
+                ],
+                "importType": {
+                    "$type": "ammonite.util.ImportData.ImportType",
+                    "name": "Type"
+                }
+            },
+            {
+                "fromName": "exists",
+                "toName": "exists",
+                "prefix": [
+                    "_root_",
+                    "ammonite",
+                    "ops"
+                ],
+                "importType": {
+                    "$type": "ammonite.util.ImportData.ImportType",
+                    "name": "Term"
+                }
+            },
+            {
+                "fromName": "CommandResult",
+                "toName": "CommandResult",
+                "prefix": [
+                    "_root_",
+                    "ammonite",
+                    "ops"
+                ],
+                "importType": {
+                    "$type": "ammonite.util.ImportData.ImportType",
+                    "name": "Type"
+                }
+            },
+            {
+                "fromName": "ResourceRoot",
+                "toName": "ResourceRoot",
+                "prefix": [
+                    "_root_",
+                    "ammonite",
+                    "ops"
+                ],
+                "importType": {
+                    "$type": "ammonite.util.ImportData.ImportType",
+                    "name": "TermType"
+                }
+            },
+            {
+                "fromName": "read",
+                "toName": "read",
+                "prefix": [
+                    "_root_",
+                    "ammonite",
+                    "ops"
+                ],
+                "importType": {
+                    "$type": "ammonite.util.ImportData.ImportType",
+                    "name": "Term"
+                }
+            },
+            {
+                "fromName": "postfixOps",
+                "toName": "postfixOps",
+                "prefix": [
+                    "_root_",
+                    "ammonite",
+                    "ops"
+                ],
+                "importType": {
+                    "$type": "ammonite.util.ImportData.ImportType",
+                    "name": "Term"
+                }
+            },
+            {
+                "fromName": "%",
+                "toName": "%",
+                "prefix": [
+                    "_root_",
+                    "ammonite",
+                    "ops"
+                ],
+                "importType": {
+                    "$type": "ammonite.util.ImportData.ImportType",
+                    "name": "Term"
+                }
+            },
+            {
+                "fromName": "home",
+                "toName": "home",
+                "prefix": [
+                    "_root_",
+                    "ammonite",
+                    "ops"
+                ],
+                "importType": {
+                    "$type": "ammonite.util.ImportData.ImportType",
+                    "name": "Term"
+                }
+            },
+            {
+                "fromName": "/",
+                "toName": "/",
+                "prefix": [
+                    "_root_",
+                    "ammonite",
+                    "ops"
+                ],
+                "importType": {
+                    "$type": "ammonite.util.ImportData.ImportType",
+                    "name": "Term"
+                }
+            },
+            {
+                "fromName": "root",
+                "toName": "root",
+                "prefix": [
+                    "_root_",
+                    "ammonite",
+                    "ops"
+                ],
+                "importType": {
+                    "$type": "ammonite.util.ImportData.ImportType",
+                    "name": "Term"
+                }
+            },
+            {
+                "fromName": "ls",
+                "toName": "ls",
+                "prefix": [
+                    "_root_",
+                    "ammonite",
+                    "ops"
+                ],
+                "importType": {
+                    "$type": "ammonite.util.ImportData.ImportType",
+                    "name": "Term"
+                }
+            },
+            {
+                "fromName": "RegexContextMaker",
+                "toName": "RegexContextMaker",
+                "prefix": [
+                    "_root_",
+                    "ammonite",
+                    "ops"
+                ],
+                "importType": {
+                    "$type": "ammonite.util.ImportData.ImportType",
+                    "name": "Term"
+                }
+            },
+            {
+                "fromName": "Command",
+                "toName": "Command",
+                "prefix": [
+                    "_root_",
+                    "ammonite",
+                    "ops"
+                ],
+                "importType": {
+                    "$type": "ammonite.util.ImportData.ImportType",
+                    "name": "Type"
+                }
+            },
+            {
+                "fromName": "rm",
+                "toName": "rm",
+                "prefix": [
+                    "_root_",
+                    "ammonite",
+                    "ops"
+                ],
+                "importType": {
+                    "$type": "ammonite.util.ImportData.ImportType",
+                    "name": "Term"
+                }
+            },
+            {
+                "fromName": "RelPathStuff",
+                "toName": "RelPathStuff",
+                "prefix": [
+                    "_root_",
+                    "ammonite",
+                    "ops"
+                ],
+                "importType": {
+                    "$type": "ammonite.util.ImportData.ImportType",
+                    "name": "Type"
+                }
+            },
+            {
+                "fromName": "Shellable",
+                "toName": "Shellable",
+                "prefix": [
+                    "_root_",
+                    "ammonite",
+                    "ops"
+                ],
+                "importType": {
+                    "$type": "ammonite.util.ImportData.ImportType",
+                    "name": "TermType"
+                }
+            },
+            {
+                "fromName": "Shellout",
+                "toName": "Shellout",
+                "prefix": [
+                    "_root_",
+                    "ammonite",
+                    "ops"
+                ],
+                "importType": {
+                    "$type": "ammonite.util.ImportData.ImportType",
+                    "name": "Term"
+                }
+            },
+            {
+                "fromName": "FilterMapArraysImplicit",
+                "toName": "FilterMapArraysImplicit",
+                "prefix": [
+                    "_root_",
+                    "ammonite",
+                    "ops"
+                ],
+                "importType": {
+                    "$type": "ammonite.util.ImportData.ImportType",
+                    "name": "Term"
+                }
+            },
+            {
+                "fromName": "RelPathStart2",
+                "toName": "RelPathStart2",
+                "prefix": [
+                    "_root_",
+                    "ammonite",
+                    "ops"
+                ],
+                "importType": {
+                    "$type": "ammonite.util.ImportData.ImportType",
+                    "name": "Type"
+                }
+            },
+            {
+                "fromName": "empty",
+                "toName": "empty",
+                "prefix": [
+                    "_root_",
+                    "ammonite",
+                    "ops"
+                ],
+                "importType": {
+                    "$type": "ammonite.util.ImportData.ImportType",
+                    "name": "Term"
+                }
+            },
+            {
+                "fromName": "Bytes",
+                "toName": "Bytes",
+                "prefix": [
+                    "_root_",
+                    "ammonite",
+                    "ops"
+                ],
+                "importType": {
+                    "$type": "ammonite.util.ImportData.ImportType",
+                    "name": "Type"
+                }
+            },
+            {
+                "fromName": "kill",
+                "toName": "kill",
+                "prefix": [
+                    "_root_",
+                    "ammonite",
+                    "ops"
+                ],
+                "importType": {
+                    "$type": "ammonite.util.ImportData.ImportType",
+                    "name": "Type"
+                }
+            },
+            {
+                "fromName": "StreamValue",
+                "toName": "StreamValue",
+                "prefix": [
+                    "_root_",
+                    "ammonite",
+                    "ops"
+                ],
+                "importType": {
+                    "$type": "ammonite.util.ImportData.ImportType",
+                    "name": "Type"
+                }
+            },
+            {
+                "fromName": "Readable",
+                "toName": "Readable",
+                "prefix": [
+                    "_root_",
+                    "ammonite",
+                    "ops"
+                ],
+                "importType": {
+                    "$type": "ammonite.util.ImportData.ImportType",
+                    "name": "TermType"
+                }
+            },
+            {
+                "fromName": "BasePathImpl",
+                "toName": "BasePathImpl",
+                "prefix": [
+                    "_root_",
+                    "ammonite",
+                    "ops"
+                ],
+                "importType": {
+                    "$type": "ammonite.util.ImportData.ImportType",
+                    "name": "Type"
+                }
+            },
+            {
+                "fromName": "ShelloutException",
+                "toName": "ShelloutException",
+                "prefix": [
+                    "_root_",
+                    "ammonite",
+                    "ops"
+                ],
+                "importType": {
+                    "$type": "ammonite.util.ImportData.ImportType",
+                    "name": "Type"
+                }
+            },
+            {
+                "fromName": "FilterMapGeneratorsImplicit",
+                "toName": "FilterMapGeneratorsImplicit",
+                "prefix": [
+                    "_root_",
+                    "ammonite",
+                    "ops"
+                ],
+                "importType": {
+                    "$type": "ammonite.util.ImportData.ImportType",
+                    "name": "Term"
+                }
+            },
+            {
+                "fromName": "FilterMapIteratorsImplicit",
+                "toName": "FilterMapIteratorsImplicit",
+                "prefix": [
+                    "_root_",
+                    "ammonite",
+                    "ops"
+                ],
+                "importType": {
+                    "$type": "ammonite.util.ImportData.ImportType",
+                    "name": "Term"
+                }
+            },
+            {
+                "fromName": "ResourceNotFoundException",
+                "toName": "ResourceNotFoundException",
+                "prefix": [
+                    "_root_",
+                    "ammonite",
+                    "ops"
+                ],
+                "importType": {
+                    "$type": "ammonite.util.ImportData.ImportType",
+                    "name": "Type"
+                }
+            },
+            {
+                "fromName": "mkdir",
+                "toName": "mkdir",
+                "prefix": [
+                    "_root_",
+                    "ammonite",
+                    "ops"
+                ],
+                "importType": {
+                    "$type": "ammonite.util.ImportData.ImportType",
+                    "name": "Term"
+                }
+            },
+            {
+                "fromName": "RelPathStart",
+                "toName": "RelPathStart",
+                "prefix": [
+                    "_root_",
+                    "ammonite",
+                    "ops"
+                ],
+                "importType": {
+                    "$type": "ammonite.util.ImportData.ImportType",
+                    "name": "Type"
+                }
+            },
+            {
+                "fromName": "PipeableImplicit",
+                "toName": "PipeableImplicit",
+                "prefix": [
+                    "_root_",
+                    "ammonite",
+                    "ops"
+                ],
+                "importType": {
+                    "$type": "ammonite.util.ImportData.ImportType",
+                    "name": "Term"
+                }
+            },
+            {
+                "fromName": "Callable1Implicit",
+                "toName": "Callable1Implicit",
+                "prefix": [
+                    "_root_",
+                    "ammonite",
+                    "ops"
+                ],
+                "importType": {
+                    "$type": "ammonite.util.ImportData.ImportType",
+                    "name": "Term"
+                }
+            },
+            {
+                "fromName": "FilterMapExtImplicit",
+                "toName": "FilterMapExtImplicit",
+                "prefix": [
+                    "_root_",
+                    "ammonite",
+                    "ops"
+                ],
+                "importType": {
+                    "$type": "ammonite.util.ImportData.ImportType",
+                    "name": "Term"
+                }
+            },
+            {
+                "fromName": "ImplicitWd",
+                "toName": "ImplicitWd",
+                "prefix": [
+                    "_root_",
+                    "ammonite",
+                    "ops"
+                ],
+                "importType": {
+                    "$type": "ammonite.util.ImportData.ImportType",
+                    "name": "Term"
+                }
+            },
+            {
+                "fromName": "PermSet",
+                "toName": "PermSet",
+                "prefix": [
+                    "_root_",
+                    "ammonite",
+                    "ops"
+                ],
+                "importType": {
+                    "$type": "ammonite.util.ImportData.ImportType",
+                    "name": "TermType"
+                }
+            },
+            {
+                "fromName": "fileData",
+                "toName": "fileData",
+                "prefix": [
+                    "_root_",
+                    "ammonite",
+                    "ops"
+                ],
+                "importType": {
+                    "$type": "ammonite.util.ImportData.ImportType",
+                    "name": "Term"
+                }
+            },
+            {
+                "fromName": "%%",
+                "toName": "%%",
+                "prefix": [
+                    "_root_",
+                    "ammonite",
+                    "ops"
+                ],
+                "importType": {
+                    "$type": "ammonite.util.ImportData.ImportType",
+                    "name": "Term"
+                }
+            },
+            {
+                "fromName": "stat",
+                "toName": "stat",
+                "prefix": [
+                    "_root_",
+                    "ammonite",
+                    "ops"
+                ],
+                "importType": {
+                    "$type": "ammonite.util.ImportData.ImportType",
+                    "name": "TermType"
+                }
+            },
+            {
+                "fromName": "Internals",
+                "toName": "Internals",
+                "prefix": [
+                    "_root_",
+                    "ammonite",
+                    "ops"
+                ],
+                "importType": {
+                    "$type": "ammonite.util.ImportData.ImportType",
+                    "name": "Term"
+                }
+            },
+            {
+                "fromName": "ShellSession",
+                "toName": "ShellSession",
+                "prefix": [
+                    "_root_",
+                    "ammonite",
+                    "shell"
+                ],
+                "importType": {
+                    "$type": "ammonite.util.ImportData.ImportType",
+                    "name": "Type"
+                }
+            },
+            {
+                "fromName": "PathComplete",
+                "toName": "PathComplete",
+                "prefix": [
+                    "_root_",
+                    "ammonite",
+                    "shell"
+                ],
+                "importType": {
+                    "$type": "ammonite.util.ImportData.ImportType",
+                    "name": "Term"
+                }
+            },
+            {
+                "fromName": "Configure",
+                "toName": "Configure",
+                "prefix": [
+                    "_root_",
+                    "ammonite",
+                    "shell"
+                ],
+                "importType": {
+                    "$type": "ammonite.util.ImportData.ImportType",
+                    "name": "Term"
+                }
+            },
+            {
+                "fromName": "OpsAPI",
+                "toName": "OpsAPI",
+                "prefix": [
+                    "_root_",
+                    "ammonite",
+                    "shell"
+                ],
+                "importType": {
+                    "$type": "ammonite.util.ImportData.ImportType",
+                    "name": "Type"
+                }
+            },
+            {
+                "fromName": "wd",
+                "toName": "wd",
+                "prefix": [
+                    "ammonite",
+                    "predef",
+                    "predef_2",
+                    "shellSession"
+                ],
+                "importType": {
+                    "$type": "ammonite.util.ImportData.ImportType",
+                    "name": "Term"
+                }
+            },
+            {
+                "fromName": "notifyAll",
+                "toName": "notifyAll",
+                "prefix": [
+                    "ammonite",
+                    "predef",
+                    "predef_2",
+                    "shellSession"
+                ],
+                "importType": {
+                    "$type": "ammonite.util.ImportData.ImportType",
+                    "name": "Term"
+                }
+            },
+            {
+                "fromName": "getClass",
+                "toName": "getClass",
+                "prefix": [
+                    "ammonite",
+                    "predef",
+                    "predef_2",
+                    "shellSession"
+                ],
+                "importType": {
+                    "$type": "ammonite.util.ImportData.ImportType",
+                    "name": "Term"
+                }
+            },
+            {
+                "fromName": "wd0_=",
+                "toName": "wd0_=",
+                "prefix": [
+                    "ammonite",
+                    "predef",
+                    "predef_2",
+                    "shellSession"
+                ],
+                "importType": {
+                    "$type": "ammonite.util.ImportData.ImportType",
+                    "name": "Term"
+                }
+            },
+            {
+                "fromName": "wd0",
+                "toName": "wd0",
+                "prefix": [
+                    "ammonite",
+                    "predef",
+                    "predef_2",
+                    "shellSession"
+                ],
+                "importType": {
+                    "$type": "ammonite.util.ImportData.ImportType",
+                    "name": "Term"
+                }
+            },
+            {
+                "fromName": "isInstanceOf",
+                "toName": "isInstanceOf",
+                "prefix": [
+                    "ammonite",
+                    "predef",
+                    "predef_2",
+                    "shellSession"
+                ],
+                "importType": {
+                    "$type": "ammonite.util.ImportData.ImportType",
+                    "name": "Term"
+                }
+            },
+            {
+                "fromName": "!=",
+                "toName": "!=",
+                "prefix": [
+                    "ammonite",
+                    "predef",
+                    "predef_2",
+                    "shellSession"
+                ],
+                "importType": {
+                    "$type": "ammonite.util.ImportData.ImportType",
+                    "name": "Term"
+                }
+            },
+            {
+                "fromName": "asInstanceOf",
+                "toName": "asInstanceOf",
+                "prefix": [
+                    "ammonite",
+                    "predef",
+                    "predef_2",
+                    "shellSession"
+                ],
+                "importType": {
+                    "$type": "ammonite.util.ImportData.ImportType",
+                    "name": "Term"
+                }
+            },
+            {
+                "fromName": "ne",
+                "toName": "ne",
+                "prefix": [
+                    "ammonite",
+                    "predef",
+                    "predef_2",
+                    "shellSession"
+                ],
+                "importType": {
+                    "$type": "ammonite.util.ImportData.ImportType",
+                    "name": "Term"
+                }
+            },
+            {
+                "fromName": "eq",
+                "toName": "eq",
+                "prefix": [
+                    "ammonite",
+                    "predef",
+                    "predef_2",
+                    "shellSession"
+                ],
+                "importType": {
+                    "$type": "ammonite.util.ImportData.ImportType",
+                    "name": "Term"
+                }
+            },
+            {
+                "fromName": "==",
+                "toName": "==",
+                "prefix": [
+                    "ammonite",
+                    "predef",
+                    "predef_2",
+                    "shellSession"
+                ],
+                "importType": {
+                    "$type": "ammonite.util.ImportData.ImportType",
+                    "name": "Term"
+                }
+            },
+            {
+                "fromName": "synchronized",
+                "toName": "synchronized",
+                "prefix": [
+                    "ammonite",
+                    "predef",
+                    "predef_2",
+                    "shellSession"
+                ],
+                "importType": {
+                    "$type": "ammonite.util.ImportData.ImportType",
+                    "name": "Term"
+                }
+            },
+            {
+                "fromName": "Relativizer",
+                "toName": "Relativizer",
+                "prefix": [
+                    "ammonite",
+                    "predef",
+                    "predef_2",
+                    "shellSession"
+                ],
+                "importType": {
+                    "$type": "ammonite.util.ImportData.ImportType",
+                    "name": "Term"
+                }
+            },
+            {
+                "fromName": "notify",
+                "toName": "notify",
+                "prefix": [
+                    "ammonite",
+                    "predef",
+                    "predef_2",
+                    "shellSession"
+                ],
+                "importType": {
+                    "$type": "ammonite.util.ImportData.ImportType",
+                    "name": "Term"
+                }
+            },
+            {
+                "fromName": "##",
+                "toName": "##",
+                "prefix": [
+                    "ammonite",
+                    "predef",
+                    "predef_2",
+                    "shellSession"
+                ],
+                "importType": {
+                    "$type": "ammonite.util.ImportData.ImportType",
+                    "name": "Term"
+                }
+            },
+            {
+                "fromName": "cd",
+                "toName": "cd",
+                "prefix": [
+                    "ammonite",
+                    "predef",
+                    "predef_2",
+                    "shellSession"
+                ],
+                "importType": {
+                    "$type": "ammonite.util.ImportData.ImportType",
+                    "name": "Term"
+                }
+            },
+            {
+                "fromName": "wait",
+                "toName": "wait",
+                "prefix": [
+                    "ammonite",
+                    "predef",
+                    "predef_2",
+                    "shellSession"
+                ],
+                "importType": {
+                    "$type": "ammonite.util.ImportData.ImportType",
+                    "name": "Term"
+                }
+            }
+        ]
+    }
+]

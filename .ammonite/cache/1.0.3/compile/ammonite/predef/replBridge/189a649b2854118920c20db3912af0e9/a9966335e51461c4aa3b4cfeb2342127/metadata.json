@@ -1,0 +1,24 @@
+[
+    {
+        "code": "189a649b2854118920c20db3912af0e9",
+        "env": "a9966335e51461c4aa3b4cfeb2342127"
+    },
+    {
+        "value": [
+            {
+                "fromName": "value",
+                "toName": "repl",
+                "prefix": [
+                    "_root_",
+                    "ammonite",
+                    "repl",
+                    "ReplBridge"
+                ],
+                "importType": {
+                    "$type": "ammonite.util.ImportData.ImportType",
+                    "name": "Term"
+                }
+            }
+        ]
+    }
+]
