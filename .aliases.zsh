@@ -1,3 +1,6 @@
+#!/usr/bin/env zsh
+
+
 # Easier navigation: .., ..., ...., ....., ~ and -
 alias ..="cd .."
 alias ...="cd ../.."
@@ -42,9 +45,6 @@ alias week='date +%V'
 
 # Stopwatch
 alias timer='echo "Timer started. Stop with Ctrl-D." && date && time cat && date'
-
-# Get OS X Software Updates, and update installed Ruby gems, Homebrew, npm, and their installed packages
-alias update_all='sudo softwareupdate -i -a; apm update --no-confirm; brew update; brew upgrade; brew cleanup; rvm get stable; gem update --system; gem update; gem cleanup; sdk selfupdate; yarn global upgrade; apex upgrade; meteor update'
 
 # IP addresses
 alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
@@ -153,4 +153,4 @@ alias ln='ln -siv'
 alias fuck='eval $(thefuck $(fc -ln -1 | tail -n 1)); fc -R'
 
 alias inspec='docker run -it --rm -v $(pwd):/share chef/inspec'
-
+alias http-jwt='docker run -it --rm teracy/httpie-jwt-auth:latest-alpine --auth-type=jwt --auth=${JWT}'
