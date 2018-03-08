@@ -150,7 +150,8 @@ alias cp='cp -iv'
 alias rm='rm -iv'
 alias ln='ln -siv'
 
-alias fuck='eval $(thefuck $(fc -ln -1 | tail -n 1)); fc -R'
-
 alias inspec='docker run -it --rm -v $(pwd):/share chef/inspec'
 alias http-jwt='docker run -it --rm teracy/httpie-jwt-auth:latest-alpine --auth-type=jwt --auth=${JWT}'
+
+eval $(thefuck --alias)
+
