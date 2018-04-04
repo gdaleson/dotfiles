@@ -5,7 +5,8 @@
 # h: equivalent to dirname
 export __GIT_PROMPT_DIR=${0:A:h}
 
-export GIT_PROMPT_EXECUTABLE=${GIT_PROMPT_EXECUTABLE:-"python"}
+#export GIT_PROMPT_EXECUTABLE=${GIT_PROMPT_EXECUTABLE:-"python"}
+GIT_PROMPT_EXECUTABLE="haskell"
 
 # Initialize colors.
 autoload -U colors
@@ -63,7 +64,10 @@ function update_current_git_vars() {
 
 git_super_status() {
 	precmd_update_git_vars
-    if [ -n "$__CURRENT_GIT_STATUS" ]; then
+  if [ -n "$__CURRENT_GIT_STATUS" ]; then
+		if [[ "$GIT_BRANCH" == ":" ]]; then
+			exit
+		fi
 	  STATUS="$ZSH_THEME_GIT_PROMPT_PREFIX$ZSH_THEME_GIT_PROMPT_BRANCH$GIT_BRANCH%{${reset_color}%}"
 	  if [ "$GIT_BEHIND" -ne "0" ]; then
 		  STATUS="$STATUS$ZSH_THEME_GIT_PROMPT_BEHIND$GIT_BEHIND%{${reset_color}%}"

@@ -6,6 +6,14 @@ pipsi_upgrade_all() {
 		pipsi upgrade ${package}
 	done
 }
+
+docker_pull_all() {
+	images=$(docker images --format '{{.Repository}}')
+	for image in ${=images}; do
+		docker pull ${image}
+	done
+}
+
 update_all() {
 	#MacOS
 	sudo softwareupdate -i -a
@@ -24,7 +32,7 @@ update_all() {
 	gem update
 	gem cleanup
 	#SDKMAN
-	sdk update
+	sdk selfupdate force
 	#Rust
 	rustup update stable
 	#JavaScript, Node
@@ -33,4 +41,7 @@ update_all() {
 	meteor update
 	#Apex
 	apex upgrade
+	#Docker
+	docker_pull_all
+	docker image prune -f
 }

@@ -1,12 +1,12 @@
-export PATH="${PATH}:/usr/local/bin:${GOPATH}/bin:${HOME}/bin:${HOME}/.rvm/bin:${HOME}/.cargo/bin"
-
-source ${HOME}/.exports
+source ${HOME}/.exports.zsh
 source ${HOME}/.secure
+
+export PATH="${HOME}/.local/bin:${GOPATH}/bin:${HOME}/bin:${HOME}/.rvm/bin:${HOME}/.cargo/bin:/usr/local/bin:/usr/local/sbin:${PATH}"
 
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
 
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" 
+source "${HOME}/.rvm/scripts/rvm" 
 
-[[ -s "/Users/gdales/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/gdales/.sdkman/bin/sdkman-init.sh"
+source "${HOME}/.sdkman/bin/sdkman-init.sh"
 

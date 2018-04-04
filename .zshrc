@@ -1,4 +1,5 @@
-source ${HOME}/lib/antigen.zsh
+source /usr/local/share/antigen/antigen.zsh
+
 antigen use oh-my-zsh
 
 antigen bundle colored-man-pages
@@ -12,7 +13,12 @@ antigen bundle zsh-users/zsh-completions
 antigen bundle zsh-users/zsh-history-substring-search
 antigen bundle zsh-users/zsh-syntax-highlighting
 
+antigen bundle StackExchange/blackbox
+
+antigen bundle arialdomartini/oh-my-git
+
 antigen bundle unixorn/tumult.plugin.zsh
+
 antigen apply
 
 source ${HOME}/lib/zsh-git-prompt/zshrc.sh
@@ -24,19 +30,19 @@ COMPLETION_WAITING_DOTS="true"
 source /usr/local/etc/profile.d/z.sh
 
 eval "$(direnv hook zsh)"
+eval "$(pipenv --completion)"
 
-source /Users/gdales/.iterm2_shell_integration.zsh
-source ${HOME}/lib/tmuxinator.zsh
+source ${HOME}/.iterm2_shell_integration.zsh
+source ${HOME}/.tmuxinator.zsh
 
-source ${HOME}/.functions
-source ${HOME}/.aliases
+source ${HOME}/.functions.zsh
+source ${HOME}/.aliases.zsh
 # plugins=(aws bower brew brew-cask bundler cabal colored-man docker gas gem git git-extras git-flow git-hubflow gradle jira jsontools lein mvn npm osx pip python ruby rvm sbt scala ssh-agent sudo tmux urltools vagrant xcode zsh-syntax-highlighting)
 
 # source '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc'
 # source '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc'
 # [[ -f /Users/gdales/.config/yarn/global/node_modules/tabtab/.completions/serverless.zsh ]] && . /Users/gdales/.config/yarn/global/node_modules/tabtab/.completions/serverless.zsh
 # [[ -f /Users/gdales/.config/yarn/global/node_modules/tabtab/.completions/sls.zsh ]] && . /Users/gdales/.config/yarn/global/node_modules/tabtab/.completions/sls.zsh
-
 
 # tabtab source for serverless package
 # uninstall by removing these lines or running `tabtab uninstall serverless`

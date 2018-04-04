@@ -151,7 +151,8 @@ alias rm='rm -iv'
 alias ln='ln -siv'
 
 alias inspec='docker run -it --rm -v $(pwd):/share chef/inspec'
-alias http-jwt='docker run -it --rm teracy/httpie-jwt-auth:latest-alpine --auth-type=jwt --auth=${JWT}'
 
 eval $(thefuck --alias)
+
+alias norg='gron --ungron'
 
