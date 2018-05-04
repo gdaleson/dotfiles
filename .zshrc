@@ -2,22 +2,27 @@ source /usr/local/share/antigen/antigen.zsh
 
 antigen use oh-my-zsh
 
-antigen bundle colored-man-pages
-antigen bundle command-not-found
-antigen bundle git
-antigen bundle gradle
-antigen bundle pip
+antigen bundles <<EOBUNDLES
+	colored-man-pages
+	command-not-found
+	docker
+	git-extras
+	gradle
+	httpie
+	pip
+	thefuck
+	zsh-users/zsh-completions
+	zsh-users/zsh-history-substring-search
+	zsh-users/zsh-syntax-highlighting
+	zsh-users/zsh-autosuggestions
+	StackExchange/blackbox
+	arialdomartini/oh-my-git
+	unixorn/tumult.plugin.zsh
+	lukechilds/zsh-nvm
+	lukechilds/zsh-better-npm-completion
+EOBUNDLES
 
-antigen bundle zsh-users/zsh-autosuggestions
-antigen bundle zsh-users/zsh-completions
-antigen bundle zsh-users/zsh-history-substring-search
-antigen bundle zsh-users/zsh-syntax-highlighting
 
-antigen bundle StackExchange/blackbox
-
-antigen bundle arialdomartini/oh-my-git
-
-antigen bundle unixorn/tumult.plugin.zsh
 
 antigen apply
 
@@ -39,10 +44,6 @@ source ${HOME}/.functions.zsh
 source ${HOME}/.aliases.zsh
 # plugins=(aws bower brew brew-cask bundler cabal colored-man docker gas gem git git-extras git-flow git-hubflow gradle jira jsontools lein mvn npm osx pip python ruby rvm sbt scala ssh-agent sudo tmux urltools vagrant xcode zsh-syntax-highlighting)
 
-# source '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc'
-# source '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc'
-# [[ -f /Users/gdales/.config/yarn/global/node_modules/tabtab/.completions/serverless.zsh ]] && . /Users/gdales/.config/yarn/global/node_modules/tabtab/.completions/serverless.zsh
-# [[ -f /Users/gdales/.config/yarn/global/node_modules/tabtab/.completions/sls.zsh ]] && . /Users/gdales/.config/yarn/global/node_modules/tabtab/.completions/sls.zsh
 
 # tabtab source for serverless package
 # uninstall by removing these lines or running `tabtab uninstall serverless`

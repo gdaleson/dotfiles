@@ -1,7 +1,7 @@
 # Personalized!
 
 # Grab the current date (%D) and time (%T) wrapped in {}: {%D %T}
-DALLAS_CURRENT_TIME_="%{$fg[white]%}{%{$fg[green]%}%D %T%{$fg[white]%}}%{$reset_color%}"
+DALLAS_CURRENT_TIME_="%{$fg[white]%}{%{$fg[yellow]%}%D %T%{$fg[white]%}}%{$reset_color%}"
 # Grab the current version of ruby in use (via RVM): [ruby-1.8.7]
 if [ -e ~/.rvm/bin/rvm-prompt ]; then
   DALLAS_CURRENT_RUBY_="%{$fg[white]%}[%{$fg[magenta]%}\$(~/.rvm/bin/rvm-prompt i v)%{$fg[white]%}]%{$reset_color%}"
@@ -11,12 +11,12 @@ else
   fi
 fi
 # Grab the current machine name
-DALLAS_CURRENT_MACH_="%{$fg[blue]%}%M%{$reset_color%}"
+DALLAS_CURRENT_MACH_="%{$fg[cyan]%}%M%{$reset_color%}"
 # Grab the current filepath, use shortcuts: ~/Desktop
 # Append the current git branch, if in a git repository: ~aw@master
 DALLAS_CURRENT_LOCA_="%{$fg[red]%}%~%{$reset_color%}"
 # Grab the current username
-DALLAS_CURRENT_USER_="%{$fg[cyan]%}%n%{$reset_color%}"
+DALLAS_CURRENT_USER_="%{$fg[green]%}%n%{$reset_color%}"
 # Use a % for normal users and a # for privileged (root) users.
 DALLAS_PROMPT_CHAR_="%{$fg[white]%}%(!.#.%%)%{$reset_color%}"
 # For the git prompt, use a white @ and blue text for the branch name
@@ -31,6 +31,4 @@ DALLAS_PROMPT_CHAR_="%{$fg[white]%}%(!.#.%%)%{$reset_color%}"
 GPROMPT="\$(git_super_status)"
 
 # Put it all together!
-PROMPT="$DALLAS_CURRENT_TIME_$DALLAS_CURRENT_RUBY_$DALLAS_CURRENT_MACH_$DALLAS_CURRENT_LOCA_ $DALLAS_CURRENT_USER_$DALLAS_PROMPT_CHAR_ "
-
-PROMPT="$DALLAS_CURRENT_TIME_$DALLAS_CURRENT_USER_@$DALLAS_CURRENT_MACH_$DALLAS_CURRENT_LOCA_$GPROMPT$DALLAS_PROMPT_CHAR_"
+PROMPT="$DALLAS_CURRENT_RUBY_$DALLAS_CURRENT_TIME_$DALLAS_CURRENT_USER_@$DALLAS_CURRENT_MACH_$DALLAS_CURRENT_LOCA_$GPROMPT$DALLAS_PROMPT_CHAR_"
