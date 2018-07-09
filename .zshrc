@@ -1,33 +1,5 @@
 source /usr/local/share/antigen/antigen.zsh
-
-antigen use oh-my-zsh
-
-antigen bundles <<EOBUNDLES
-	colored-man-pages
-	command-not-found
-	docker
-	git-extras
-	gradle
-	httpie
-	pip
-	thefuck
-	zsh-users/zsh-completions
-	zsh-users/zsh-history-substring-search
-	zsh-users/zsh-syntax-highlighting
-	zsh-users/zsh-autosuggestions
-	StackExchange/blackbox
-	arialdomartini/oh-my-git
-	unixorn/tumult.plugin.zsh
-	lukechilds/zsh-nvm
-	lukechilds/zsh-better-npm-completion
-EOBUNDLES
-
-
-
-antigen apply
-
-source ${HOME}/lib/zsh-git-prompt/zshrc.sh
-source ${HOME}/.oh-my-zsh/themes/astartosteerherby.zsh-theme
+antigen init ${HOME}/.antigenrc
 
 CASE_SENSITIVE="true"
 COMPLETION_WAITING_DOTS="true"
@@ -38,7 +10,6 @@ eval "$(direnv hook zsh)"
 eval "$(pipenv --completion)"
 
 source ${HOME}/.iterm2_shell_integration.zsh
-source ${HOME}/.tmuxinator.zsh
 
 source ${HOME}/.functions.zsh
 source ${HOME}/.aliases.zsh
@@ -51,3 +22,7 @@ source ${HOME}/.aliases.zsh
 # tabtab source for sls package
 # uninstall by removing these lines or running `tabtab uninstall sls`
 [[ -f /Users/gdales/.config/yarn/global/node_modules/tabtab/.completions/sls.zsh ]] && . /Users/gdales/.config/yarn/global/node_modules/tabtab/.completions/sls.zsh
+
+# Clear exit status
+echo 0 > /dev/null
+
