@@ -17,8 +17,8 @@ docker_pull_all() {
 update_all() {
 	#MacOS
 	sudo softwareupdate -i -a
-	#Atom
-	apm update --no-confirm
+	#zsh plugins
+	antigen update
 	#Homebrew
 	brew update
 	brew upgrade
@@ -36,12 +36,10 @@ update_all() {
 	#Rust
 	rustup update stable
 	#JavaScript, Node
-	yarn global upgrade
 	npm -g upgrade
-	meteor update
-	#Apex
-	apex upgrade
 	#Docker
 	docker_pull_all
-	docker image prune -f
+	docker system prune -af
+	#Atom
+	apm update --no-confirm
 }
