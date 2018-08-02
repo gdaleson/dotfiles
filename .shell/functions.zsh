@@ -18,7 +18,7 @@ update_all() {
 	#MacOS
 	sudo softwareupdate -i -a
 	#zsh plugins
-	antigen update
+	zgen update
 	#Homebrew
 	brew update
 	brew upgrade
@@ -36,7 +36,9 @@ update_all() {
 	#Rust
 	rustup update stable
 	#JavaScript, Node
+	nvm upgrade
 	npm -g upgrade
+	meteor update
 	#Docker
 	docker_pull_all
 	docker system prune -af

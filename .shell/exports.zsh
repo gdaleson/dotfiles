@@ -1,5 +1,9 @@
 #!/usr/bin/env zsh
 
+export HISTFILE=${HOME}/.zsh_history
+export SAVEHIST=100000
+export HISTSIZE=1000
+
 export HIVE_HOME=/usr/local/opt/hive/libexec
 export HCAT_HOME=/usr/local/opt/hive/libexec/hcatalog
 export GOPATH=~/lib/go
