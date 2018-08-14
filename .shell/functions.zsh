@@ -23,6 +23,7 @@ update_all() {
 	brew update
 	brew upgrade
 	brew cleanup
+	brew cask upgrade
 	#Python (pyenv & pipsi)
 	pyenv update
 	pipsi_upgrade_all
@@ -44,4 +45,6 @@ update_all() {
 	docker system prune -af
 	#Atom
 	apm update --no-confirm
+	#cfn-lint
+	cfn-lint -u
 }

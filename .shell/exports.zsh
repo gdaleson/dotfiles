@@ -1,7 +1,7 @@
 #!/usr/bin/env zsh
 
 export HISTFILE=${HOME}/.zsh_history
-export SAVEHIST=100000
+export SAVEHIST=10000
 export HISTSIZE=1000
 
 export HIVE_HOME=/usr/local/opt/hive/libexec
