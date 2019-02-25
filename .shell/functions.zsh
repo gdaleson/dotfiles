@@ -1,12 +1,5 @@
 #!/usr/bin/env zsh
 
-pipsi_upgrade_all() {
-	packages=$(pipsi list | grep Package | tail -n +2 | cut -d\" -f2)
-	for package in ${=packages}; do
-		pipsi upgrade ${package}
-	done
-}
-
 docker_pull_all() {
 	images=$(docker images --format '{{.Repository}}')
 	for image in ${=images}; do
@@ -26,7 +19,7 @@ update_all() {
 	brew cask upgrade
 	#Python (pyenv & pipsi)
 	pyenv update
-	pipsi_upgrade_all
+	pipx upgrade-all
 	#Ruby (RVM)
 	rvm get stable
 	gem update --system
@@ -45,6 +38,4 @@ update_all() {
 	docker system prune -af
 	#Atom
 	apm update --no-confirm
-	#cfn-lint
-	cfn-lint -u
 }
