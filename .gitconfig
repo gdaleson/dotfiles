@@ -64,7 +64,7 @@
 
 [core]
 	# Use custom `.gitignore` and `.gitattributes`
-	excludesfile = /Users/gdales/.gitignore_global
+	excludesfile = ~/.gitignore_global
 	attributesfile = ~/.gitattributes
 
 	# Treat spaces before tabs and all kinds of trailing whitespace as an error
@@ -145,7 +145,7 @@
 	default = simple
 [user]
 	name = Gabriel Daleson
-	email = gabriel.daleson@nike.com
+	signingkey = 24F7F6C166BAF3FEEE6C252482D50AD57D231BF7
 [credential]
 	helper = osxkeychain
 [filter "media"]
@@ -162,3 +162,5 @@
 	clean = git lfs clean %f
 	smudge = git lfs smudge %f
 	required = true
+[pull]
+	rebase = false

@@ -32,10 +32,11 @@ update_all() {
 	#JavaScript, Node
 	nvm upgrade
 	npm -g upgrade
-	meteor update
+	# meteor update
 	#Docker
+	$(aws ecr get-login --no-include-email)
 	docker_pull_all
-	docker system prune -af
+	docker system prune -f
 	#Atom
 	apm update --no-confirm
 }

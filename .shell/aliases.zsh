@@ -136,7 +136,8 @@ alias reload="exec $SHELL -l"
 
 # My personal aliases
 
-alias ls='ls -alGh'
+#alias ls='ls -alGh'
+alias ls='exa -alFg@ --git'
 
 # Safer file manipulation
 

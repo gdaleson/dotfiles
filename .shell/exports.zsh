@@ -21,3 +21,6 @@ else
   export EDITOR='mvim'
 fi
 
+export SDKMAN_DIR="/Users/gdaleson/.sdkman"
+
+export AWS_PROFILE="villagemd.main"
